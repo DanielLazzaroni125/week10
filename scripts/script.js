@@ -15,5 +15,16 @@ do{
 }
 while(!isNaN(Number(input)))
 
-alert("Hello " + input);
-alert(`Hello ${input}`)
+// alert("Hello " + input);
+alert(`Hello ${input}`);
+
+
+
+let fruits = ["apple", "banana"];
+
+fruits.push('orange')
+fruits.pop()
+fruits.unshift('mango')
+fruits.shift()
+
+console.log(fruits)
