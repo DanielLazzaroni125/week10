@@ -28,3 +28,21 @@ fruits.unshift('mango')
 fruits.shift()
 
 console.log(fruits)
+
+for (let item of fruits){
+    console.log(item)
+}
+
+const person = {
+    name:['Bob', 'Smith'],
+    age:32,
+    gender:'male',
+    hobbies :['music', 'skiing']
+}
+
+console.log(`my name is ${person.name[0]} ${person.name[1]}. I am interested in ${person.hobbies[0]} and ${person.hobbies[1]}`)
+
+for (let key in person){
+    console.log(key); //prints each key
+    console.log(person[key]) //prints each key and value
+}
